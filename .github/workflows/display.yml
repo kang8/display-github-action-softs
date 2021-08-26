@@ -8,5 +8,6 @@ jobs:
     steps:
       - run : echo 'Hello World'
       - name: show python version
-        run: python -V
+        run: print("python")
         shell: python
+      - run: python -V
