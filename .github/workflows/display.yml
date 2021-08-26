@@ -11,3 +11,4 @@ jobs:
         run: print("python")
         shell: python
       - run: python -V
+      - run: java -version
