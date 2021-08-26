@@ -6,5 +6,7 @@ jobs:
   version:
     runs-on: ubuntu-latest
     steps:
-      - run: python -V
+      - run : echo 'Hello World'
+      - name: show python version
+        run: python -V
         shell: python
